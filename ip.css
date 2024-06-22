@@ -1,0 +1,29 @@
+body {
+	padding: 10px 20px;
+}
+
+
+h1 {
+	text-align: center;
+}
+em {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+	* {
+		padding: 5px 5px 5px 5px;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	em {
+		margin-bottom: 10px;
+	}
+	ol {
+		padding: 5px 5px 5px 15px;
+	}
+	/* li {
+		padding: 5px 5px 5px 5px;
+	} */
+}
