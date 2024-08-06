@@ -9,6 +9,23 @@ h1 {
 em {
 	font-weight: bold;
 }
+.m-top-10 {
+	margin-top: 10px;
+}
+.m-bottom-10 {
+	margin-bottom: 10px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+	margin: 0;
+}
+.responsive-image {
+	max-width: 100%;
+	height: auto;
+}
 
 @media screen and (max-width: 600px){
 	* {
@@ -22,8 +39,15 @@ em {
 	}
 	ol {
 		padding: 5px 5px 5px 15px;
+	}	
+	.container {
+		/* width: 120%; */
+		margin: 0 auto;
+
 	}
-	/* li {
-		padding: 5px 5px 5px 5px;
-	} */
+	.responsive-image {
+		width: 100%;
+		height: auto;
+		padding: 0 20px 0 20px;
+	}
 }
